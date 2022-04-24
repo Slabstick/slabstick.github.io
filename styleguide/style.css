@@ -1,0 +1,179 @@
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(37, 37, 37);
+    color: rgb(209, 209, 209);
+    margin: 75px 10px 50px;
+}
+
+header {
+    width: 100%;
+    background-color: rgb(19, 19, 19);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+header h1 {
+    margin-left: 20px;
+}
+
+div {
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    align-self:center;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(19, 19, 19);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    
+}
+footer p{
+    display: inline-block;
+}
+
+.left {
+    float: left;
+    padding-left: 1rem;
+}
+
+.right {
+    float: right;
+    padding-right: 1rem;
+}
+
+footer a {
+    width: 40px;
+    color:darkgray;
+    border-bottom: 2px solid;
+    border-bottom-color: rgb(58, 58, 58);
+    text-decoration: none;
+    transition: 1s ease;
+}
+
+footer a:hover {
+    border-bottom: 2px solid;
+    border-bottom-color: rgb(209, 209, 209);
+    width: 100px;
+    text-decoration: none;
+}
+
+.colorbox {
+    padding-top: 1rem;
+    margin: 1rem;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.color {
+    padding: 2rem 0;
+    margin: 0.2rem;
+    flex: auto;
+    border: 1px solid black;
+    --switch: calc((background-color - 50) * -100);
+    display: flex;
+    justify-content: center;
+    transition: all .5s ease-in-out;
+}
+
+
+.fonts {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.font {
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+#black {
+    background-color: hsl(0, 0%, 0%);
+}
+
+.color:hover {
+    filter: blur(.2rem);
+    content: "hsl(0,0,0)";
+}
+
+#darkergray {
+    background-color: hsl(0, 0%, 15%);
+}
+
+#darkgray {
+    background-color: hsl(0, 0%, 30%);
+}
+
+#mediumgray {
+    background-color: hsl(0, 0%, 45%);
+    color: black;
+
+}
+
+#gray {
+    background-color: hsl(0, 0%, 60%);
+    color: black;
+}
+
+#lightgray {
+    background-color: hsl(0, 0%, 75%);
+    color: black;
+
+}
+
+#lightergray {
+    background-color: hsl(0, 0%, 90%);
+    color: black;
+
+}
+
+#roboto {
+    font-family: roboto;
+}
+
+#raleway {
+    font-family: Raleway;
+
+}
+
+#josefinsans {
+    font-family: "Josefin Sans";
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#italic {
+    font-style: italic;
+}
+
+h3 {
+    text-decoration: underline;
+}
